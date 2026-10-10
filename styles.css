@@ -1,0 +1,53 @@
+body {
+    background-image:url('smiski-bg.jpg');
+}
+
+#titleCard {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:95vh;
+}
+
+#titleText {
+    color:#426133;
+    text-align: center;
+    text-justify: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    user-select: none;
+}
+
+#startButton {
+    margin-top:25vh;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 3px solid #426133;
+    border-radius:50px;
+    background-color: #eaefe7;
+}
+
+#startButton:hover {
+    background-color: #ced8c9;
+    cursor: pointer;
+}
+#startButton:active {
+    background-color: #eaefe7;
+
+}
+
+
+
+#boxMenu {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:95vh;
+
+
+}
+#scroll {
+    display:flex;
+    overflow-x:auto;
+}
